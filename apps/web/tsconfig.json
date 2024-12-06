@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ],
+      "@pkg": [
+        "./package.json"
+      ],
+      "@core/*": [
+        "../core/src/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "strict": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": false,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+  },
+  "include": [
+    "./src/**/*",
+  ]
+}

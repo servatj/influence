@@ -1,0 +1,22 @@
+{
+  "name": "@packages/complied",
+  "private": true,
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "author": "Innei <https://innei.in>",
+  "main": "dist/index.cjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@auth/core": "0.34.2",
+    "@auth/drizzle-adapter": "1.4.2",
+    "typescript": "^5.5.4"
+  }
+}
